@@ -1,11 +1,10 @@
 {
-  "name": "libeo/nova-date-range-filter",
+  "name": "ampeco/nova-date-range-filter",
   "description": "A Laravel Nova date range filter.",
   "keywords": [
     "laravel",
     "nova",
     "date",
-    "libeo",
     "filter"
   ],
   "license": "MIT",
@@ -14,13 +13,13 @@
   },
   "autoload": {
     "psr-4": {
-      "Libeo\\Filters\\": "src/"
+      "Ampeco\\Filters\\": "src/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "Libeo\\Filters\\FieldServiceProvider"
+        "Ampeco\\Filters\\FieldServiceProvider"
       ]
     }
   },
