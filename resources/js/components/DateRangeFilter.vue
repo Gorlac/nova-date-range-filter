@@ -113,6 +113,7 @@ export default {
   methods: {
     handleChange(value) {
         setTimeout(() => {
+          console.log(value);
             value = value.map(value => {
                 return flatpickr.formatDate(value, this.dateFormat)
             })
