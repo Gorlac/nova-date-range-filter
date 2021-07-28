@@ -1,6 +1,6 @@
 <?php
 
-namespace Libeo\Filters;
+namespace Ampeco\Filters;
 
 use Laravel\Nova\Filters\Filter;
 
